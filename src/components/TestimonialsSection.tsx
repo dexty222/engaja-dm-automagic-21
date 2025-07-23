@@ -10,7 +10,7 @@ export const TestimonialsSection = () => {
     {
       name: "Carlos Silva",
       role: "Infoprodutor",
-      avatar: "/src/assets/testimonial1.jpg",
+      avatar: "/testimonial1.jpg",
       text: "O EngajaDM mudou meu negócio completamente! Em 30 dias aumentei minhas vendas em 300%. Agora vendo enquanto durmo!",
       revenue: "R$ 45.000",
       period: "primeiro mês"
@@ -18,7 +18,7 @@ export const TestimonialsSection = () => {
     {
       name: "Marina Santos", 
       role: "Coach Online",
-      avatar: "/src/assets/testimonial2.jpg",
+      avatar: "/testimonial2.jpg",
       text: "Incrível como é simples! Instalei em 10 minutos e já comecei a converter. Minha taxa de conversão triplicou!",
       revenue: "R$ 28.500",
       period: "primeira semana"
@@ -26,7 +26,7 @@ export const TestimonialsSection = () => {
     {
       name: "Ricardo Oliveira",
       role: "Dropshipper",
-      avatar: "/src/assets/testimonial3.jpg", 
+      avatar: "/testimonial3.jpg", 
       text: "Testei várias soluções, mas o EngajaDM é outro nível. A qualidade dos scripts é impressionante. ROI de 1500%!",
       revenue: "R$ 67.200",
       period: "60 dias"
