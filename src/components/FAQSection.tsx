@@ -86,7 +86,7 @@ export const FAQSection = () => {
               Fale direto com nossa equipe no WhatsApp e tire todas suas dúvidas antes de comprar
             </p>
             <a 
-              href="https://wa.me/5511999999999?text=Olá! Tenho dúvidas sobre o EngajaDM" 
+              href="https://wa.me/5583986851129?text=Olá! Tenho dúvidas sobre o EngajaDM" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-success hover:bg-success/90 text-white font-semibold px-8 py-3 rounded-lg transition-colors"
