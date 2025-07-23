@@ -30,10 +30,10 @@ export const PricingSection = () => {
           </p>
         </div>
 
-        <div className="max-w-md mx-auto animate-bounce-in">
-          <Card className="bg-gradient-card border-2 border-purple-primary/50 shadow-glow relative overflow-hidden">
-            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              <Badge className="bg-gradient-primary text-primary-foreground font-bold px-4 py-2">
+        <div className="max-w-md mx-auto animate-bounce-in relative">
+          <Card className="bg-gradient-card border-2 border-purple-primary/50 shadow-glow relative mt-4">
+            <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 overflow-visible">
+              <Badge className="bg-gradient-primary text-primary-foreground font-bold px-4 py-2 whitespace-nowrap">
                 OFERTA LIMITADA
               </Badge>
             </div>
@@ -47,7 +47,7 @@ export const PricingSection = () => {
                     <span className="text-lg text-muted-foreground line-through">R$ 297,00</span>
                     <Badge variant="destructive">-77%</Badge>
                   </div>
-                  <div className="text-5xl font-bold text-success mb-2">R$ 69</div>
+                  <div className="text-5xl font-bold text-success mb-2">R$ 47</div>
                   <div className="text-lg text-muted-foreground">pagamento único</div>
                 </div>
 

@@ -63,7 +63,7 @@ export const UrgencySection = () => {
               className="group animate-pulse-glow text-xl px-12 py-4 h-auto"
               onClick={() => window.open('https://pay.kiwify.com.br/sey169c', '_blank')}
             >
-              💰 SIM! QUERO FATURAR R$ 69
+              💰 SIM! QUERO FATURAR R$ 47
               <ArrowRight className="ml-3 h-6 w-6 transition-transform group-hover:translate-x-2" />
             </Button>
             

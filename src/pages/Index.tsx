@@ -8,6 +8,7 @@ import { PricingSection } from "@/components/PricingSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { FAQSection } from "@/components/FAQSection";
 import { UrgencySection } from "@/components/UrgencySection";
+import { ContactSupport } from "@/components/ContactSupport";
 import { FloatingCTA } from "@/components/FloatingCTA";
 
 const Index = () => {
@@ -21,6 +22,7 @@ const Index = () => {
       <TestimonialsSection />
       <PricingSection />
       <FAQSection />
+      <ContactSupport />
       <UrgencySection />
       <FloatingCTA />
     </div>

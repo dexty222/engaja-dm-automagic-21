@@ -30,7 +30,12 @@ export const HeroSection = () => {
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </Button>
               
-              <Button variant="outline" size="xl" className="group bg-gray-50 border-purple-primary/30 text-gray-900 hover:bg-gray-100">
+              <Button 
+                variant="outline" 
+                size="xl" 
+                className="group bg-gray-50 border-purple-primary/30 text-gray-900 hover:bg-gray-100"
+                onClick={() => window.open('https://youtu.be/-H3mvbi30vE', '_blank')}
+              >
                 <Play className="mr-2 h-5 w-5" />
                 Ver demonstração
               </Button>

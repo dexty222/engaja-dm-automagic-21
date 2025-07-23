@@ -69,7 +69,6 @@ export const TestimonialsSection = () => {
                     }`}
                   >
                     <Avatar className="w-20 h-20 mx-auto mb-4 border-2 border-purple-primary/30">
-                      <AvatarImage src={testimonial.avatar} alt={testimonial.name} />
                       <AvatarFallback className="bg-gradient-primary text-primary-foreground text-lg font-bold">
                         {testimonial.name.split(' ').map(n => n[0]).join('')}
                       </AvatarFallback>

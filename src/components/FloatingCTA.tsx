@@ -30,7 +30,7 @@ export const FloatingCTA = () => {
           className="w-full group shadow-glow"
           onClick={() => window.open('https://pay.kiwify.com.br/sey169c', '_blank')}
         >
-          🚀 Comprar por R$ 69
+          🚀 Comprar por R$ 47
           <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
         </Button>
       </div>
@@ -42,7 +42,7 @@ export const FloatingCTA = () => {
           size="icon" 
           className="group shadow-glow animate-pulse-glow"
           onClick={() => window.open('https://pay.kiwify.com.br/sey169c', '_blank')}
-          title="Comprar EngajaDM por R$ 69"
+          title="Comprar EngajaDM por R$ 47"
         >
           💰
         </Button>
@@ -54,7 +54,7 @@ export const FloatingCTA = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <div className="text-sm font-semibold text-primary-foreground">
-                🔥 OFERTA LIMITADA: EngajaDM por apenas R$ 69
+                🔥 OFERTA LIMITADA: EngajaDM por apenas R$ 47
               </div>
               <div className="text-xs text-primary-foreground/80">
                 Preço normal: R$ 297
