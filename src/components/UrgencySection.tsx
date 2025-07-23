@@ -72,7 +72,7 @@ export const UrgencySection = () => {
           {/* Social proof urgency */}
           <div className="mt-12 grid grid-cols-2 gap-6 max-w-md mx-auto animate-fade-in">
             <div className="text-center">
-              <div className="text-2xl font-bold text-purple-primary mb-1">369</div>
+              <div className="text-2xl font-bold text-purple-primary mb-1">37</div>
               <div className="text-xs text-muted-foreground">pessoas compraram hoje</div>
             </div>
             <div className="text-center">
