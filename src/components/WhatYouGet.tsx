@@ -1,36 +1,28 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Check, FileText, Video, MessageCircle, Gift } from "lucide-react";
-
 export const WhatYouGet = () => {
-  const benefits = [
-    {
-      icon: FileText,
-      title: "Template completo para n8n",
-      description: "Workflow 100% pronto para importar e usar imediatamente",
-      highlight: false
-    },
-    {
-      icon: Video,
-      title: "Vídeoaulas passo a passo",
-      description: "Tutoriais detalhados para configurar tudo em minutos",
-      highlight: false
-    },
-    {
-      icon: MessageCircle,
-      title: "Scripts de conversão validados",
-      description: "Mensagens que já venderam milhões em DMs automatizadas",
-      highlight: false
-    },
-    {
-      icon: Gift,
-      title: "BÔNUS: Scripts que venderam +R$ 5 milhões",
-      description: "Acesso exclusivo aos scripts mais lucrativos do mercado",
-      highlight: true
-    }
-  ];
-
-  return (
-    <section className="py-20 bg-background">
+  const benefits = [{
+    icon: FileText,
+    title: "Template completo para n8n",
+    description: "Workflow 100% pronto para importar e usar imediatamente",
+    highlight: false
+  }, {
+    icon: Video,
+    title: "Vídeoaulas passo a passo",
+    description: "Tutoriais detalhados para configurar tudo em minutos",
+    highlight: false
+  }, {
+    icon: MessageCircle,
+    title: "Scripts de conversão validados",
+    description: "Mensagens que já venderam milhões em DMs automatizadas",
+    highlight: false
+  }, {
+    icon: Gift,
+    title: "BÔNUS: Scripts que venderam +R$ 5 milhões",
+    description: "Acesso exclusivo aos scripts mais lucrativos do mercado",
+    highlight: true
+  }];
+  return <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
@@ -45,19 +37,12 @@ export const WhatYouGet = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {benefits.map((benefit, index) => (
-            <Card 
-              key={index} 
-              className={`bg-gradient-card border-purple-primary/20 hover:shadow-glow transition-all duration-300 animate-scale-in group relative overflow-hidden ${
-                benefit.highlight ? 'ring-2 ring-purple-primary/50' : ''
-              }`}
-              style={{ animationDelay: `${index * 150}ms` }}
-            >
-              {benefit.highlight && (
-                <div className="absolute top-0 right-0 bg-gradient-primary px-3 py-1 rounded-bl-lg">
+          {benefits.map((benefit, index) => <Card key={index} className={`bg-gradient-card border-purple-primary/20 hover:shadow-glow transition-all duration-300 animate-scale-in group relative overflow-hidden ${benefit.highlight ? 'ring-2 ring-purple-primary/50' : ''}`} style={{
+          animationDelay: `${index * 150}ms`
+        }}>
+              {benefit.highlight && <div className="absolute top-0 right-0 bg-gradient-primary px-3 py-1 rounded-bl-lg">
                   <span className="text-xs font-bold text-primary-foreground">BÔNUS</span>
-                </div>
-              )}
+                </div>}
               
               <CardContent className="p-8">
                 <div className="flex items-start gap-4">
@@ -80,16 +65,13 @@ export const WhatYouGet = () => {
                   </div>
                 </div>
               </CardContent>
-            </Card>
-          ))}
+            </Card>)}
         </div>
 
         {/* Value proposition */}
         <div className="text-center mt-16 animate-fade-in">
           <div className="bg-gradient-card border border-purple-primary/20 rounded-xl p-8 max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold text-foreground mb-4">
-              Valor Total: R$ 2.997,00
-            </h3>
+            <h3 className="text-2xl font-bold text-foreground mb-4">Valor Total: R$ 297,00</h3>
             <p className="text-3xl font-bold text-success mb-4">
               Hoje por apenas: R$ 69,00
             </p>
@@ -99,6 +81,5 @@ export const WhatYouGet = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
