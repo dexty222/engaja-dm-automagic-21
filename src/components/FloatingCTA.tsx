@@ -32,19 +32,19 @@ export const FloatingCTA = () => {
       </div>
 
       {/* Sticky header CTA for desktop */}
-      <div className="fixed top-0 left-0 right-0 z-40 bg-gradient-primary/95 backdrop-blur-sm border-b border-purple-primary/30 hidden lg:block animate-fade-in">
+      <div className="fixed top-0 left-0 right-0 z-40 bg-background/95 backdrop-blur-sm border-b border-border shadow-sm hidden lg:block animate-fade-in">
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <div className="text-sm font-semibold text-primary-foreground bg-slate-50/0">
+              <div className="text-sm font-semibold text-foreground">
                 🔥 OFERTA LIMITADA: EngajaDM por apenas R$ 47
               </div>
-              <div className="text-xs text-primary-foreground/80 bg-[#000a0e]/0">
+              <div className="text-xs text-muted-foreground">
                 Preço normal: R$ 297
               </div>
             </div>
             
-            <Button variant="secondary" size="sm" className="group bg-white/20 text-primary-foreground border-white/30 hover:bg-white/30" onClick={() => window.open('https://pay.kiwify.com.br/sey169c', '_blank')}>
+            <Button variant="default" size="sm" className="group" onClick={() => window.open('https://pay.kiwify.com.br/sey169c', '_blank')}>
               Comprar Agora
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Button>

@@ -10,7 +10,7 @@ export const TestimonialsSection = () => {
     {
       name: "Carlos Silva",
       role: "Infoprodutor",
-      avatar: "/lovable-uploads/testimonial1.jpg",
+      avatar: "/src/assets/testimonial1.jpg",
       text: "O EngajaDM mudou meu negócio completamente! Em 30 dias aumentei minhas vendas em 300%. Agora vendo enquanto durmo!",
       revenue: "R$ 45.000",
       period: "primeiro mês"
@@ -18,7 +18,7 @@ export const TestimonialsSection = () => {
     {
       name: "Marina Santos", 
       role: "Coach Online",
-      avatar: "/lovable-uploads/testimonial2.jpg",
+      avatar: "/src/assets/testimonial2.jpg",
       text: "Incrível como é simples! Instalei em 10 minutos e já comecei a converter. Minha taxa de conversão triplicou!",
       revenue: "R$ 28.500",
       period: "primeira semana"
@@ -26,7 +26,7 @@ export const TestimonialsSection = () => {
     {
       name: "Ricardo Oliveira",
       role: "Dropshipper",
-      avatar: "/lovable-uploads/testimonial3.jpg", 
+      avatar: "/src/assets/testimonial3.jpg", 
       text: "Testei várias soluções, mas o EngajaDM é outro nível. A qualidade dos scripts é impressionante. ROI de 1500%!",
       revenue: "R$ 67.200",
       period: "60 dias"
@@ -69,6 +69,7 @@ export const TestimonialsSection = () => {
                     }`}
                   >
                     <Avatar className="w-20 h-20 mx-auto mb-4 border-2 border-purple-primary/30">
+                      <AvatarImage src={testimonial.avatar} alt={testimonial.name} />
                       <AvatarFallback className="bg-gradient-primary text-primary-foreground text-lg font-bold">
                         {testimonial.name.split(' ').map(n => n[0]).join('')}
                       </AvatarFallback>
