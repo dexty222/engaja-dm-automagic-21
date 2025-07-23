@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
 export const HeroSection = () => {
-  return <section className="relative min-h-screen bg-white overflow-hidden">
+  return <section className="relative min-h-screen bg-background overflow-hidden">
       {/* Subtle background pattern for light theme */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_50%,theme(colors.purple.primary/0.05),transparent)]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,theme(colors.purple.secondary/0.05),transparent)]" />
@@ -10,16 +10,16 @@ export const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
           {/* Left content */}
           <div className="text-center lg:text-left animate-fade-in">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
               Para de perder venda no{" "}
               <span className="bg-gradient-primary bg-clip-text text-transparent">
                 Instagram
               </span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-2xl">
+            <p className="text-xl md:text-2xl text-foreground/90 mb-8 max-w-2xl">
               O <span className="text-purple-primary font-semibold">EngajaDM</span> vende por você 24h/dia!
             </p>
-            <p className="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl">
+            <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl">
               O template definitivo no n8n para automatizar as respostas de 'Eu Quero' 
               nos comentários e fechar vendas na DM em segundos.
             </p>
@@ -33,7 +33,7 @@ export const HeroSection = () => {
               <Button 
                 variant="outline" 
                 size="xl" 
-                className="group bg-gray-50 border-purple-primary/30 text-gray-900 hover:bg-gray-100"
+                className="group bg-card border-purple-primary/30 text-card-foreground hover:bg-muted"
                 onClick={() => window.open('https://youtu.be/-H3mvbi30vE', '_blank')}
               >
                 <Play className="mr-2 h-5 w-5" />
