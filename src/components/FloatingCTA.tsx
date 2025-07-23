@@ -39,7 +39,7 @@ export const FloatingCTA = () => {
               <div className="text-sm font-semibold text-primary-foreground bg-slate-50/0">
                 🔥 OFERTA LIMITADA: EngajaDM por apenas R$ 47
               </div>
-              <div className="text-xs text-primary-foreground/80">
+              <div className="text-xs text-primary-foreground/80 bg-[#000a0e]/0">
                 Preço normal: R$ 297
               </div>
             </div>
