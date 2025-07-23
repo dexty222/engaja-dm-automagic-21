@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Clock, TrendingUp, Users } from "lucide-react";
-
 export const UrgencySection = () => {
-  return (
-    <section className="py-20 bg-gradient-to-br from-destructive/20 via-purple-dark/30 to-background relative overflow-hidden">
+  return <section className="py-20 bg-gradient-to-br from-destructive/20 via-purple-dark/30 to-background relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,theme(colors.purple.primary/0.2),transparent)] animate-pulse" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_70%,theme(colors.destructive/0.1),transparent)] animate-pulse" />
@@ -33,13 +31,17 @@ export const UrgencySection = () => {
               <p className="text-muted-foreground">Você perde em média R$ 247 em vendas não convertidas</p>
             </div>
             
-            <div className="bg-gradient-card border border-purple-primary/30 rounded-xl p-6 animate-scale-in" style={{ animationDelay: '200ms' }}>
+            <div className="bg-gradient-card border border-purple-primary/30 rounded-xl p-6 animate-scale-in" style={{
+            animationDelay: '200ms'
+          }}>
               <TrendingUp className="h-12 w-12 text-purple-primary mx-auto mb-4" />
               <h3 className="text-2xl font-bold text-foreground mb-2">Cada Dia</h3>
               <p className="text-muted-foreground">Seus concorrentes faturam R$ 5.928 a mais que você</p>
             </div>
             
-            <div className="bg-gradient-card border border-warning/30 rounded-xl p-6 animate-scale-in" style={{ animationDelay: '400ms' }}>
+            <div className="bg-gradient-card border border-warning/30 rounded-xl p-6 animate-scale-in" style={{
+            animationDelay: '400ms'
+          }}>
               <Users className="h-12 w-12 text-warning mx-auto mb-4" />
               <h3 className="text-2xl font-bold text-foreground mb-2">Cada Mês</h3>
               <p className="text-muted-foreground">Você deixa de ganhar R$ 177.840 por não automatizar</p>
@@ -57,12 +59,7 @@ export const UrgencySection = () => {
               Comece a vender no automático AGORA!
             </p>
             
-            <Button 
-              variant="cta" 
-              size="xl" 
-              className="group animate-pulse-glow text-xl px-12 py-4 h-auto"
-              onClick={() => window.open('https://pay.kiwify.com.br/sey169c', '_blank')}
-            >
+            <Button variant="cta" size="xl" className="group animate-pulse-glow text-xl px-12 py-4 h-auto" onClick={() => window.open('https://pay.kiwify.com.br/sey169c', '_blank')}>
               💰 SIM! QUERO FATURAR R$ 47
               <ArrowRight className="ml-3 h-6 w-6 transition-transform group-hover:translate-x-2" />
             </Button>
@@ -75,7 +72,7 @@ export const UrgencySection = () => {
           {/* Social proof urgency */}
           <div className="mt-12 grid grid-cols-2 gap-6 max-w-md mx-auto animate-fade-in">
             <div className="text-center">
-              <div className="text-2xl font-bold text-purple-primary mb-1">47</div>
+              <div className="text-2xl font-bold text-purple-primary mb-1">369</div>
               <div className="text-xs text-muted-foreground">pessoas compraram hoje</div>
             </div>
             <div className="text-center">
@@ -85,6 +82,5 @@ export const UrgencySection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
