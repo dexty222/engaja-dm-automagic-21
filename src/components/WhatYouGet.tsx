@@ -73,7 +73,7 @@ export const WhatYouGet = () => {
           <div className="bg-gradient-card border border-purple-primary/20 rounded-xl p-8 max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold text-foreground mb-4">Valor Total: R$ 297,00</h3>
             <p className="text-3xl font-bold text-success mb-4">
-              Hoje por apenas: R$ 69,00
+              Hoje por apenas: R$ 47,00
             </p>
             <p className="text-lg text-muted-foreground">
               Pagamento único • Acesso imediato • Sem mensalidades

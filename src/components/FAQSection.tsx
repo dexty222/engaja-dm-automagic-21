@@ -25,7 +25,7 @@ export const FAQSection = () => {
     },
     {
       question: "Preciso pagar mensalidade?",
-      answer: "Não! É um pagamento único de R$ 69. Você tem acesso vitalício ao template, atualizações gratuitas e suporte sem nenhum custo adicional."
+      answer: "Não! É um pagamento único de R$ 47. Você tem acesso vitalício ao template, atualizações gratuitas e suporte sem nenhum custo adicional."
     },
     {
       question: "Como funciona a instalação?",
