@@ -6,7 +6,7 @@ export const ComparisonTable = () => {
     {
       feature: "Custo inicial",
       others: "R$ 97-297/mês",
-      engajaDM: "R$ 69 único",
+      engajaDM: "R$ 47 único",
       othersGood: false,
       engajaDMGood: true
     },
