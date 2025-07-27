@@ -25,7 +25,7 @@ export const HeroSection = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="hero" size="xl" onClick={() => window.open('https://pay.kiwify.com.br/sey169c', '_blank')} className="group text-base text-slate-50 mx-0 my-px px-[20px]">
+              <Button variant="hero" size="xl" onClick={() => window.open('https://pay.kiwify.com.br/sey169c', '_blank')} className="group text-base text-slate-50 mx-0 my-0 px-[10px]">
                 🚀 Quero vender no automático agora!
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </Button>
