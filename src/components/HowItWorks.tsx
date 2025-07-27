@@ -10,7 +10,7 @@ export const HowItWorks = () => {
       color: "text-purple-primary",
       bgColor: "bg-purple-primary/20",
       borderColor: "border-purple-primary/30",
-      imageSrc: "https://i.imgur.com/QzzQDLv.gif", // imagem corrigida
+      imageSrc: "http://i.imgur.com/QzzQDLv.gif", // <- GIF corrigido
       imageAlt: "Imagem do passo 1 - Instalação do template"
     },
     {
@@ -61,24 +61,24 @@ export const HowItWorks = () => {
                 <div className={`w-12 h-12 sm:w-16 sm:h-16 ${step.bgColor} ${step.borderColor} border-2 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6 group-hover:scale-110 transition-transform`}>
                   <step.icon className={`h-6 w-6 sm:h-8 sm:w-8 ${step.color}`} />
                 </div>
-                
+
                 <div className="absolute top-3 right-3 sm:top-4 sm:right-4 w-6 h-6 sm:w-8 sm:h-8 bg-purple-primary/20 rounded-full flex items-center justify-center">
                   <span className="text-xs sm:text-sm font-bold text-purple-primary">{index + 1}</span>
                 </div>
-                
+
                 <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-3 sm:mb-4">
                   {step.title}
                 </h3>
                 <p className="text-sm sm:text-base text-muted-foreground mb-4 sm:mb-6">
                   {step.description}
                 </p>
-                
-                {/* Image placeholder */}
+
+                {/* Image container */}
                 <div className="w-full h-32 sm:h-40 lg:h-48 bg-secondary/30 border border-border/50 rounded-lg flex items-center justify-center mb-4 overflow-hidden group-hover:scale-105 transition-transform">
                   <img 
                     src={step.imageSrc} 
                     alt={step.imageAlt}
-                    className="w-full h-full object-cover" // <- AQUI A MUDANÇA
+                    className="w-full h-full object-cover"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
                       target.style.display = 'none';
@@ -100,7 +100,7 @@ export const HowItWorks = () => {
           ))}
         </div>
 
-        {/* Connection arrows for desktop */}
+        {/* Connection arrows */}
         <div className="hidden lg:flex justify-center items-center mt-8 gap-4 animate-fade-in" style={{ animationDelay: '800ms' }}>
           <div className="w-16 lg:w-24 h-0.5 bg-gradient-to-r from-purple-primary to-purple-secondary animate-pulse"></div>
           <div className="w-16 lg:w-24 h-0.5 bg-gradient-to-r from-purple-secondary to-success animate-pulse"></div>
