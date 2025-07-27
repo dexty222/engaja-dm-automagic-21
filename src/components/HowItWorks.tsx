@@ -10,7 +10,7 @@ export const HowItWorks = () => {
       color: "text-purple-primary",
       bgColor: "bg-purple-primary/20",
       borderColor: "border-purple-primary/30",
-      imageSrc: "https://imgur.com/rmcpR9K", // imagem corrigida
+      imageSrc: "https://imgur.com/a/97UDD0E", // imagem corrigida
       imageAlt: "Imagem do passo 1 - Instalação do template"
     },
     {
