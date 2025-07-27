@@ -30,7 +30,7 @@ export const HowItWorks = () => {
       color: "text-success",
       bgColor: "bg-success/20",
       borderColor: "border-success/30",
-      imageSrc: "https://i.imgur.com/B6CTp8P.png",
+      imageSrc: "https://i.imgur.com/HdbyrqR.gif",
       imageAlt: "Imagem do passo 3 - Faturamento automático"
     }
   ];
