@@ -25,17 +25,12 @@ export const HeroSection = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="hero" size="xl" onClick={() => window.open('https://pay.kiwify.com.br/sey169c', '_blank')} className="group text-base text-slate-50">
+              <Button variant="hero" size="xl" onClick={() => window.open('https://pay.kiwify.com.br/sey169c', '_blank')} className="group text-base text-slate-50 mx-0 my-0 px-0">
                 🚀 Quero vender no automático agora!
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </Button>
               
-              <Button 
-                variant="outline" 
-                size="xl" 
-                className="group bg-card border-purple-primary/30 text-card-foreground hover:bg-muted"
-                onClick={() => window.open('https://youtu.be/-H3mvbi30vE', '_blank')}
-              >
+              <Button variant="outline" size="xl" className="group bg-card border-purple-primary/30 text-card-foreground hover:bg-muted" onClick={() => window.open('https://youtu.be/-H3mvbi30vE', '_blank')}>
                 <Play className="mr-2 h-5 w-5" />
                 Ver demonstração
               </Button>
