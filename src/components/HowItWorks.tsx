@@ -10,7 +10,7 @@ export const HowItWorks = () => {
       color: "text-purple-primary",
       bgColor: "bg-purple-primary/20",
       borderColor: "border-purple-primary/30",
-      imageSrc: "/img-step-1.jpg",
+      imageSrc: "https://i.imgur.com/fLSSsU6.png",
       imageAlt: "Imagem do passo 1 - Instalação do template"
     },
     {
@@ -20,7 +20,7 @@ export const HowItWorks = () => {
       color: "text-purple-secondary",
       bgColor: "bg-purple-secondary/20",
       borderColor: "border-purple-secondary/30",
-      imageSrc: "/img-step-2.jpg",
+      imageSrc: "https://i.imgur.com/PXE2Aif.png",
       imageAlt: "Imagem do passo 2 - Ativação no n8n"
     },
     {
@@ -30,7 +30,7 @@ export const HowItWorks = () => {
       color: "text-success",
       bgColor: "bg-success/20",
       borderColor: "border-success/30",
-      imageSrc: "/img-step-3.jpg",
+      imageSrc: "https://i.imgur.com/B6CTp8P.png",
       imageAlt: "Imagem do passo 3 - Faturamento automático"
     }
   ];
