@@ -10,7 +10,7 @@ export const HowItWorks = () => {
       color: "text-purple-primary",
       bgColor: "bg-purple-primary/20",
       borderColor: "border-purple-primary/30",
-      imageSrc: "https://imgur.com/o1fVQ0A",
+      imageSrc: "https://i.imgur.com/CMixhKw.png", // imagem corrigida
       imageAlt: "Imagem do passo 1 - Instalação do template"
     },
     {
@@ -78,7 +78,7 @@ export const HowItWorks = () => {
                   <img 
                     src={step.imageSrc} 
                     alt={step.imageAlt}
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-cover" // <- AQUI A MUDANÇA
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
                       target.style.display = 'none';
